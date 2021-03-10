@@ -16,8 +16,6 @@ const Home = () => {
       </div>
       <img
         src={'/reclaim.png'}
-        width={700}
-        height={420}
       />
       <div className='input-container'>
         <h4>Join our email list to get early access to features and updates as we expand Reclaim</h4>
@@ -47,6 +45,8 @@ const Home = () => {
       color: white;
     }
     img {
+      width: 35%;
+      margin: 0 auto;
       border: 1px solid white;
       border-radius: 5px;
     }
@@ -58,8 +58,7 @@ const Home = () => {
       margin-bottom: 3%;
     }
     .btn {
-      width: 12%;
-      padding: 0.5%;
+      padding: 1%;
       margin-bottom: 1%;
       background: linear-gradient(to bottom right, #d7d6d6, #6e54c4);
       border: 1px solid white;
@@ -80,11 +79,9 @@ const Home = () => {
       margin-top: 3%;
     }
     .input-container input {
-      width: 10%;
       margin: 0 auto;
     }
     .input-container button {
-      width: 6%;
       margin: 0.1% auto;
     }
     .top-container {
