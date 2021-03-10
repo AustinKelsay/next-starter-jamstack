@@ -11,7 +11,7 @@ const Home = () => {
       </Head>
       <h1 className='header'>Reclaim</h1>
       <div className='top-container'>
-        <h3>Reclaim is an open source desktop app for your personal online information. With Reclaim you can collect your social media data in a few clicks and explore every photo, friend, and intereaction from your digital life.</h3>
+        <h3>Reclaim is an open source desktop app for your personal online information. With Reclaim you can collect your social media data in a few clicks and explore every photo, friend, and interaction from your digital life.</h3>
         <button className='btn'>Reclaim your data</button>
       </div>
       <img
