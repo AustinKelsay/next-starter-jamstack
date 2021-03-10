@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 
 const Home = () => {
   return (
@@ -15,11 +14,7 @@ const Home = () => {
         <h3>Reclaim is an open source desktop app for your personal online information. With Reclaim you can collect your social media data in a few clicks and explore every photo, friend, and intereaction from your digital life.</h3>
         <button className='btn'>Reclaim your data</button>
       </div>
-      <Image
-        src={'/reclaim.png'}
-        width={700}
-        height={420}
-      />
+
       <div className='input-container'>
         <h4>Join our email list to get early access to features and updates as we expand Reclaim</h4>
         <input type='text' placeholder='example@email.com' />
