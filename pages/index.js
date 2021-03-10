@@ -46,6 +46,10 @@ const Home = () => {
       background-color: #282c34;
       color: white;
     }
+    img {
+      border: 1px solid white;
+      border-radius: 5px;
+    }
     .header {
       font-family: Audiowide;
       font-weight: 800;
@@ -54,8 +58,8 @@ const Home = () => {
       margin-bottom: 3%;
     }
     .btn {
-      width: 15%;
-      padding: 1%;
+      width: 12%;
+      padding: 0.5%;
       margin-bottom: 1%;
       background: linear-gradient(to bottom right, #d7d6d6, #6e54c4);
       border: 1px solid white;
@@ -64,7 +68,7 @@ const Home = () => {
       font-family: 'Source Code Pro', monospace;
       color: black;
       font-size: 1rem;
-      font-weight: 600;
+      font-weight: 800;
     }
     .btn:hover {
       opacity: 0.8;
@@ -84,7 +88,7 @@ const Home = () => {
       margin: 0.1% auto;
     }
     .top-container {
-      width: 90%;
+      width: 85%;
       margin: 1% auto;
     }
     `}</style>
