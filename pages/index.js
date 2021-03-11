@@ -66,9 +66,10 @@ const Home = () => {
     .top-container {
       width: 85%;
       margin: 1% auto;
+      margin-bottom: 3%;
     }
     .email-component {
-      height: 81vh;
+      height: 69vh;
       width: 35vw;
     }
     `}</style>
