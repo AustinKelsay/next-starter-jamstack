@@ -13,12 +13,8 @@ const Home = () => {
       <div className='top-container'>
         <h3>Reclaim is an open source desktop app for your personal online information. With Reclaim you can collect your social media data in a few clicks and explore every photo, friend, and interaction from your digital life.</h3>
       </div>
-      <iframe 
-        className='email-component' 
-        src="https://c7ad2f4f.sibforms.com/serve/MUIEAI3SGHQTuHI6ojtURgLdtG-qunNWZFWldXNX0PdpvHq901OdvHsco8yDovTtiZUw03PHqlsaI6QyuAJ9xCmYincGqmXo37AUKSfGWeJWmxrPoH9NpKnRfWAaCqADm615JqEdqgv95RZ2Ot9-zViu_KW8czQ46YQBVLWU9BVAJCX2W4eV77_acw-HqETabAb1N3x839jNRt_w" 
-        frameborder="0" scrolling="auto" allowfullscreen 
-        style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%'}}>
-      </iframe>
+      <iframe className='email-component' src="https://c7ad2f4f.sibforms.com/serve/MUIEAEtphHQDTuZROGG-FTmoBbEmkeYkn4e-Hn292_wis9MqSZtOvpsg1pYE7KCUQYab172rp8s6-vWRWod91iDPoKAc4jTfUwX899YIwD1ThXKCHNkulD0n4BgnMw0b3UBS72Gs1bZLYkmLxgqyqZEUOYXG_RioWHq84hFEmbD1y9gHTv7ePSGC_kAW9LzGhPopL2AoPWn28X2H" 
+      frameborder="0" scrolling="auto" allowfullscreen style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%'}}></iframe>
     
     <style jsx>{`
     :global(html,body) {
@@ -65,6 +61,7 @@ const Home = () => {
     }
     .top-container {
       width: 85%;
+      padding: 0.1%;
       margin: 1% auto;
       margin-bottom: 3%;
     }
