@@ -12,16 +12,13 @@ const Home = () => {
       <h1 className='header'>Reclaim</h1>
       <div className='top-container'>
         <h3>Reclaim is an open source desktop app for your personal online information. With Reclaim you can collect your social media data in a few clicks and explore every photo, friend, and interaction from your digital life.</h3>
-        <button className='btn'>Reclaim your data</button>
       </div>
-      <img
-        src={'/reclaim.png'}
-      />
-      <div className='input-container'>
-        <h4>Join our email list to get early access to features and updates as we expand Reclaim</h4>
-        <input type='text' placeholder='example@email.com' />
-        <button type='submit'>Submit</button>
-      </div>
+      <iframe 
+        className='email-component' 
+        src="https://c7ad2f4f.sibforms.com/serve/MUIEAI3SGHQTuHI6ojtURgLdtG-qunNWZFWldXNX0PdpvHq901OdvHsco8yDovTtiZUw03PHqlsaI6QyuAJ9xCmYincGqmXo37AUKSfGWeJWmxrPoH9NpKnRfWAaCqADm615JqEdqgv95RZ2Ot9-zViu_KW8czQ46YQBVLWU9BVAJCX2W4eV77_acw-HqETabAb1N3x839jNRt_w" 
+        frameborder="0" scrolling="auto" allowfullscreen 
+        style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%'}}>
+      </iframe>
     
     <style jsx>{`
     :global(html,body) {
@@ -39,23 +36,17 @@ const Home = () => {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       text-align: center;
       background-color: #282c34;
       color: white;
-    }
-    img {
-      width: 35%;
-      margin: 0 auto;
-      border: 1px solid white;
-      border-radius: 5px;
     }
     .header {
       font-family: Audiowide;
       font-weight: 800;
     }
     h3 {
-      margin-bottom: 3%;
+      margin-bottom: 1%;
     }
     .btn {
       padding: 1%;
@@ -72,21 +63,13 @@ const Home = () => {
     .btn:hover {
       opacity: 0.8;
     }
-    .input-container {
-      display: flex;
-      flex-direction: column;
-      margin: 1% auto;
-      margin-top: 3%;
-    }
-    .input-container input {
-      margin: 0 auto;
-    }
-    .input-container button {
-      margin: 0.1% auto;
-    }
     .top-container {
       width: 85%;
       margin: 1% auto;
+    }
+    .email-component {
+      height: 81vh;
+      width: 35vw;
     }
     `}</style>
     </div>
