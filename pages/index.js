@@ -111,7 +111,7 @@ const Home = () => {
         width: 80vw
       }
       .header {
-        margin-top: 8%;
+        margin-top: 15%;
       }
       .top-container {
         width: 90%;
