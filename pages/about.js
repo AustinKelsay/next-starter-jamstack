@@ -13,10 +13,10 @@ const Home = () => {
       </Head>
       <div className='top-container'>
         <h1 className='header'>Reclaim</h1>
-        <Link href="/about">
-          <button className='btn'>About us</button>
+        <Link href="/">
+          <button className='btn'>Back</button>
         </Link>
-        <h3>Reclaim is an open source desktop app for your personal online information. With Reclaim you can collect your social media data in a few clicks and explore every photo, friend, and interaction from your digital life.</h3>
+        <h3>Reclaim is the hub for your personal data. Reclaim is an open source desktop app for collecting and storing personal online information. With Reclaim you can collect your social media data in a few clicks and explore every photo, friend, and interaction from your digital life.</h3>
       </div>
       <div className='about-container'>
         <div className='about-card'>
@@ -79,9 +79,9 @@ const Home = () => {
       margin-bottom: 10%;
     }
     .about-container {
-        width: 90%;
+        width: 88%;
         margin: 1% auto;
-        margin-bottom: 13%;
+        margin-bottom: 12%;
         display: flex;
         flex-direction: row;
         justify-contetn: space-between;
