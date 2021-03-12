@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 
 const Home = () => {
   return (
@@ -13,9 +12,6 @@ const Home = () => {
       </Head>
       <div className='top-container'>
         <h1 className='header'>Reclaim</h1>
-        <Link href="/about">
-          <button className='btn'>About us</button>
-        </Link>
         <h3>Reclaim is an open source desktop app for your personal online information. With Reclaim you can collect your social media data in a few clicks and explore every photo, friend, and interaction from your digital life.</h3>
       </div>
       <iframe className='email-component' src="https://c7ad2f4f.sibforms.com/serve/MUIEAEtphHQDTuZROGG-FTmoBbEmkeYkn4e-Hn292_wis9MqSZtOvpsg1pYE7KCUQYab172rp8s6-vWRWod91iDPoKAc4jTfUwX899YIwD1ThXKCHNkulD0n4BgnMw0b3UBS72Gs1bZLYkmLxgqyqZEUOYXG_RioWHq84hFEmbD1y9gHTv7ePSGC_kAW9LzGhPopL2AoPWn28X2H" 
@@ -49,16 +45,21 @@ const Home = () => {
       font-weight: 800;
       text-decoration: underline;
       font-size: 3rem;
-      margin-bottom: 0;
     }
     h3 {
       margin-bottom: 1%;
     }
     .btn {
-      padding: 0.3%;
+      padding: 1%;
+      margin-bottom: 1%;
       background: linear-gradient(to bottom right, #d7d6d6, #6e54c4);
+      border: 1px solid white;
       border-radius: 5px;
       cursor: pointer;
+      font-family: 'Source Code Pro', monospace;
+      color: black;
+      font-size: 1rem;
+      font-weight: 800;
     }
     .btn:hover {
       opacity: 0.8;
