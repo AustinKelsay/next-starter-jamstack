@@ -140,7 +140,7 @@ const Home = () => {
         margin-top: 2%;
       }
       .email-component {
-        height: 60vh;
+        height: 55vh;
       }
     }
     @media(max-height: 650px) {
