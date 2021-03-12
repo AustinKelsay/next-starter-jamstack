@@ -49,13 +49,14 @@ const Home = () => {
       font-weight: 800;
       text-decoration: underline;
       font-size: 3rem;
+      margin-top: 0.5%;
       margin-bottom: 0;
     }
     h3 {
       margin-bottom: 1%;
     }
     .btn {
-      padding: 0.3%;
+      padding: 0.4%;
       background: linear-gradient(to bottom right, #d7d6d6, #6e54c4);
       border-radius: 5px;
       cursor: pointer;
