@@ -111,10 +111,13 @@ const Home = () => {
         width: 80vw
       }
       .header {
-        margin-top: 15%;
+        margin-top: 10%;
       }
       .top-container {
         width: 90%;
+      }
+      h3 {
+        margin-top: 0%;
       }
     }
     @media(max-width: 350px) {
