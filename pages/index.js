@@ -114,7 +114,7 @@ const Home = () => {
         margin-top: 15%;
       }
       .top-container {
-        width: 90%;
+        width: 95%;
       }
       h3 {
         margin-top: 0%;
