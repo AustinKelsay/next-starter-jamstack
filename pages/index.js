@@ -74,6 +74,59 @@ const Home = () => {
       height: 69vh;
       width: 35vw;
     }
+    @media(max-width: 1600px) {
+      .top-container {
+        margin-bottom: 1%;
+      }
+    }
+    @media(max-width: 1200px) {
+      .email-component {
+        height: 69vh;
+        width: 40vw;
+      }
+    }
+    @media(max-width: 850px) {
+      .email-component {
+        height: 69vh;
+        width: 50vw;
+      }
+    }
+    @media(max-width: 750px) {
+      .email-component {
+        height: 69vh;
+        width: 60vw;
+      }
+    }
+    @media(max-width: 650px) {
+      .email-component {
+        height: 69vh;
+        width: 60vw;
+      }
+    }
+    @media(max-width: 550px) {
+      .email-component {
+        height: 69vh;
+        width: 70vw;
+      }
+    }
+    @media(max-width: 450px) {
+      .email-component {
+        height: 69vh;
+        width: 80vw;
+      }
+    }
+    @media(max-width: 350px) {
+      .email-component {
+        height: 69vhs
+        width: 90vw;
+      }
+    }
+    @media(max-width: 330px) {
+      .email-component {
+        height: 69vhs
+        width: 90vw;
+      }
+    }
     `}</style>
     </div>
     );
