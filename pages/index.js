@@ -108,7 +108,7 @@ const Home = () => {
     }
     @media(max-width: 450px) {
       .email-component {
-        width: 80vw
+        width: 85vw
       }
       .header {
         margin-top: 15%;
@@ -153,7 +153,7 @@ const Home = () => {
     }
     @media(max-height: 550px) {
       .email-component {
-        height: 45vh;
+        height: 40vh;
       }
     }
     @media(max-height: 450px) {
@@ -161,7 +161,7 @@ const Home = () => {
         margin-top: 3%;
       }
       .email-component {
-        height: 40vh;
+        height: 35vh;
       }
     }
     @media(max-height: 350px) {
@@ -169,12 +169,12 @@ const Home = () => {
         margin-top: 5%;
       }
       .email-component {
-        height: 35vh;
+        height: 30vh;
       }
     }
     @media(max-height: 300px) {
       .email-component {
-        height: 30vh;
+        height: 25vh;
       }
     }
     `}</style>
