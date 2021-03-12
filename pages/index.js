@@ -110,6 +110,9 @@ const Home = () => {
       .email-component {
         width: 80vw
       }
+      .header {
+        margin-top: 8%;
+      }
     }
     @media(max-width: 350px) {
       .email-component {
@@ -119,6 +122,53 @@ const Home = () => {
     @media(max-width: 330px) {
       .email-component {
         width: 90vw;
+      }
+    }
+    @media(max-height: 850px) {
+      .top-container {
+        margin-bottom: 0;
+      }
+    }
+    @media(max-height: 750px) {
+      .header {
+        margin-top: 2%;
+      }
+      .email-component {
+        height: 60vh;
+      }
+    }
+    @media(max-height: 650px) {
+      .header {
+        margin-top: 2%;
+      }
+      .email-component {
+        height: 50vh;
+      }
+    }
+    @media(max-height: 550px) {
+      .email-component {
+        height: 45vh;
+      }
+    }
+    @media(max-height: 450px) {
+      .header {
+        margin-top: 3%;
+      }
+      .email-component {
+        height: 40vh;
+      }
+    }
+    @media(max-height: 350px) {
+      .header {
+        margin-top: 5%;
+      }
+      .email-component {
+        height: 35vh;
+      }
+    }
+    @media(max-height: 300px) {
+      .email-component {
+        height: 30vh;
       }
     }
     `}</style>
