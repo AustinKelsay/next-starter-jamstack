@@ -19,7 +19,7 @@ const Home = () => {
         <h3>Reclaim is the hub for your personal data. Reclaim is an open source desktop app for collecting and storing personal online information. With Reclaim you can collect your social media data in a few clicks and explore every photo, friend, and interaction from your digital life.</h3>
       </div>
       <iframe className='email-component' src="https://c7ad2f4f.sibforms.com/serve/MUIEAEtphHQDTuZROGG-FTmoBbEmkeYkn4e-Hn292_wis9MqSZtOvpsg1pYE7KCUQYab172rp8s6-vWRWod91iDPoKAc4jTfUwX899YIwD1ThXKCHNkulD0n4BgnMw0b3UBS72Gs1bZLYkmLxgqyqZEUOYXG_RioWHq84hFEmbD1y9gHTv7ePSGC_kAW9LzGhPopL2AoPWn28X2H" 
-      frameborder="0" scrolling="auto" allowfullscreen style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%'}}></iframe>
+      frameborder="0" scrolling="auto" allowFullScreen style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%'}}></iframe>
     
     <style jsx>{`
     :global(html,body) {
@@ -72,7 +72,7 @@ const Home = () => {
     }
     .email-component {
       height: 69vh;
-      width: 35vw;
+      width: 40vw;
     }
     @media(max-width: 1600px) {
       .top-container {
@@ -82,48 +82,46 @@ const Home = () => {
     @media(max-width: 1200px) {
       .email-component {
         height: 69vh;
-        width: 40vw;
+        width: 50vw;
+      }
+    }
+    @media(max-width: 1000px) {
+      .email-component {
+        width: 55vw;
       }
     }
     @media(max-width: 850px) {
       .email-component {
-        height: 69vh;
-        width: 50vw;
+        width: 60vw;
       }
     }
     @media(max-width: 750px) {
       .email-component {
-        height: 69vh;
-        width: 60vw;
+        width: 65vw;
       }
     }
     @media(max-width: 650px) {
       .email-component {
-        height: 69vh;
-        width: 60vw;
+        width: 70vw;
       }
     }
     @media(max-width: 550px) {
       .email-component {
-        height: 69vh;
-        width: 70vw;
+        width: 75vw;
       }
     }
     @media(max-width: 450px) {
       .email-component {
-        height: 69vh;
-        width: 80vw;
+        width: 80vw
       }
     }
     @media(max-width: 350px) {
       .email-component {
-        height: 69vhs
-        width: 90vw;
+        width: 85vw
       }
     }
     @media(max-width: 330px) {
       .email-component {
-        height: 69vhs
         width: 90vw;
       }
     }
