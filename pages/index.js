@@ -75,6 +75,12 @@ const Home = () => {
       height: 80vh;
       width: 90vw;
     }
+    @media(max-width: 500px) {
+      .email-component {
+        height: 165vh;
+        width: 95vw;
+      }
+    }
     `}</style>
     </div>
     );
