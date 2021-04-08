@@ -14,8 +14,9 @@ const Home = () => {
         <h1 className='header'>Reclaim</h1>
         <h3 className='tagline'>A hub for your personal data</h3>
       </div>
-      <iframe className='email-component' src="https://c7ad2f4f.sibforms.com/serve/MUIEAMFL1lYUdyC3XnM4eyOZU-8G2r81zvAGgqRChD1mR8AO-tnipDMZglKxWPzQBMQh5cG2eRJYsILnDsMyUZK9ej1Jv8JhDwbs3i1yB4zVYtfQu0YvaDI5Rc87mZVwCMrIy8xgNgQ8DQHV1v89OMKP601oxTmB7IFA6Gu0sE_ELMDDNdU5MTTO5QLM8YdAx9MoZB71QeiRgrsq" 
+      <iframe className='email-component' src="https://c7ad2f4f.sibforms.com/serve/MUIEACMHabLE04CPqDpq3mOc2mLaeeIVDZKIgfww6L8s3ZWSbk-sbCeL-kIXDy7f2VuMELe-0d8zv5Mrn8DDoDkPnWdTokrU85wJUsmoKTEDdmhkRm5igSflinFRJTTDlt53FDCasZr_ySS0iH3Uom0faw9iWmaMlS75J2ndPSFm16V1cwVbrHOOuyOaX_WYlpBfV8jg25hcxZFG" 
       frameBorder="0" scrolling="auto" allowFullScreen style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%'}}></iframe>
+      
     
     <style jsx>{`
     :global(html,body) {
