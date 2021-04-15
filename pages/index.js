@@ -14,7 +14,7 @@ const Home = () => {
         <h1 className='header'>Reclaim</h1>
         <h3 className='tagline'>A hub for your personal data</h3>
       </div>
-      <a href="https://github.com/reclaimapp/reclaim" className='github-button'>Github</a>
+      <a href="https://github.com/reclaimapp/reclaim" target="_blank" rel="noopener noreferrer" className='github-button'>Github</a>
       <iframe className='email-component' src="https://c7ad2f4f.sibforms.com/serve/MUIEACMHabLE04CPqDpq3mOc2mLaeeIVDZKIgfww6L8s3ZWSbk-sbCeL-kIXDy7f2VuMELe-0d8zv5Mrn8DDoDkPnWdTokrU85wJUsmoKTEDdmhkRm5igSflinFRJTTDlt53FDCasZr_ySS0iH3Uom0faw9iWmaMlS75J2ndPSFm16V1cwVbrHOOuyOaX_WYlpBfV8jg25hcxZFG" 
       frameBorder="0" scrolling="auto" allowFullScreen style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%'}}></iframe>
       
